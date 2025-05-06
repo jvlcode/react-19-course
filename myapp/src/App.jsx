@@ -8,8 +8,10 @@ import SimpleForm from "./core-concepts/06-event-handling/SimpleForm"
 import ListExample from "./core-concepts/07-list-keys/ListExample"
 import TaskManager from "./core-concepts/08-task-manager/TaskManager"
 import UseStateExample from "./hooks/01-usestate/UseStateExample"
-import UseEffectExample from "./hooks/02-useeffect/UseEffectExample"
-import UseReducerExample from "./hooks/03-usereducer/UseReducer"
+// import UseEffectExample from "./hooks/03-useeffect/UseEffectExample"
+import UseReducerExample from "./hooks/02-usereducer/UseReducer"
+import UseLayoutEffectExample from "./hooks/04-uselayouteffect/UseLayoutEffectExample"
+import UseEffectExample from "./hooks/04-uselayouteffect/UseEffectExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -25,7 +27,11 @@ function App() {
   // return <TaskManager />
   // return <UseStateExample/>
   // return <UseEffectExample/>
-  return <UseReducerExample />
+  // return <UseReducerExample />
+  return  <>
+  <UseEffectExample/>
+  <UseLayoutEffectExample/>
+  </>
 }
 
 export default App
