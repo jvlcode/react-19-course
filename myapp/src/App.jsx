@@ -8,6 +8,7 @@ import SimpleForm from "./core-concepts/06-event-handling/SimpleForm"
 import ListExample from "./core-concepts/07-list-keys/ListExample"
 import TaskManager from "./core-concepts/08-task-manager/TaskManager"
 import UseStateExample from "./hooks/01-usestate/UseStateExample"
+import UseEffectExample from "./hooks/02-useeffect/UseEffectExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
   // return <SimpleForm/>
   // return <ListExample/>
   // return <TaskManager />
-  return <UseStateExample/>
+  // return <UseStateExample/>
+  return <UseEffectExample/>
 }
 
 export default App
