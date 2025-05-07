@@ -12,6 +12,7 @@ import UseStateExample from "./hooks/01-usestate/UseStateExample"
 import UseReducerExample from "./hooks/02-usereducer/UseReducer"
 import UseLayoutEffectExample from "./hooks/04-uselayouteffect/UseLayoutEffectExample"
 import UseEffectExample from "./hooks/04-uselayouteffect/UseEffectExample"
+import Dashboard from "./hooks/05-usecontext/Dashboard"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -28,10 +29,11 @@ function App() {
   // return <UseStateExample/>
   // return <UseEffectExample/>
   // return <UseReducerExample />
-  return  <>
-  <UseEffectExample/>
-  <UseLayoutEffectExample/>
-  </>
+  // return  <>
+  // <UseEffectExample/>
+  // <UseLayoutEffectExample/>
+  // </>
+  return <Dashboard />
 }
 
 export default App
