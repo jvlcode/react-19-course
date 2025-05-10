@@ -15,6 +15,7 @@ import UseEffectExample from "./hooks/04-uselayouteffect/UseEffectExample"
 import Dashboard from "./hooks/05-usecontext/Dashboard"
 import UseRefExample from "./hooks/06-useref/UseRefExample"
 import UseMemoExample from "./hooks/07-usememo/UseMemoExample"
+import UseCallbackExample from "./hooks/08-usecallback/useCallbackExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -37,7 +38,8 @@ function App() {
   // </>
   // return <Dashboard />
   // return <UseRefExample/>
-  return <UseMemoExample/>
+  // return <UseMemoExample/>
+  return <UseCallbackExample/>
 }
 
 export default App
