@@ -17,6 +17,7 @@ import UseRefExample from "./hooks/06-useref/UseRefExample"
 import UseMemoExample from "./hooks/07-usememo/UseMemoExample"
 import UseCallbackExample from "./hooks/08-usecallback/useCallbackExample"
 import UseCustomHookExample from "./hooks/09-usecustomhook/UseCustomHookExample"
+import UseExample from "./hooks/10-use/useExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -41,7 +42,8 @@ function App() {
   // return <UseRefExample/>
   // return <UseMemoExample/>
   // return <UseCallbackExample/>
-  return <UseCustomHookExample/>
+  // return <UseCustomHookExample/>
+  return <UseExample/>
 }
 
 export default App
