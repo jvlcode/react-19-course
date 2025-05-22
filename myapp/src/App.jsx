@@ -7,6 +7,15 @@ import EventHandlingExample from "./core-concepts/06-event-handling/EventHandlin
 import SimpleForm from "./core-concepts/06-event-handling/SimpleForm"
 import ListExample from "./core-concepts/07-list-keys/ListExample"
 import TaskManager from "./core-concepts/08-task-manager/TaskManager"
+import UseStateExample from "./hooks/01-usestate/UseStateExample"
+import UseReducerExample from "./hooks/02-usereducer/UseReducerExample"
+import UseActionState from "./hooks/03-useactionstate/UseActionState"
+import UseFormstatusExample from "./hooks/04-useformstatus/UseFormStatus"
+import UseEffectExample from "./hooks/05-useeffect/UseEffectExample"
+import UseLayoutEffectExample from "./hooks/06-uselayouteffect/UseLayoutEffect"
+import UseContextExample from "./hooks/07-usecontext/UseContextExample"
+import UseRefExample from "./hooks/08-useref/UseRefExample"
+import UseMemoExample from "./hooks/09-usememo/UseRefExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -19,7 +28,17 @@ function App() {
   // return <EventHandlingExample/>
   // return <SimpleForm/>
   // return <ListExample/>
-  return <TaskManager />
+  // return <TaskManager />
+  // return <UseStateExample/>
+  // return <UseReducerExample/>
+  // return <UseActionState/>
+  // return <UseActionState/>
+  // return <UseFormstatusExample/>
+  // return <UseEffectExample/>
+  // return <UseLayoutEffectExample/>
+  // return <UseContextExample/>
+  // return <UseRefExample/>
+  return <UseMemoExample/>
 }
 
 export default App
