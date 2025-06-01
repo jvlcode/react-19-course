@@ -5,13 +5,13 @@ function UseStateExample() {
   const [isVisible, setIsVisible] = useState(false);
 
   // Function to toggle the 'isVisible' state
-  const UseStateExample = () => {
+  const handleClick = () => {
     setIsVisible(!isVisible);
   };
 
   return (
     <div>
-      <button onClick={UseStateExample}>
+      <button onClick={handleClick}>
         {isVisible ? 'Hide Text' : 'Show Text'}
       </button>
       {isVisible && <p>This is the text that gets toggled!</p>}

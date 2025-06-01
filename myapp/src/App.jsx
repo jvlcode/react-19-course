@@ -19,7 +19,8 @@ import UseCallbackExample from "./hooks/08-usecallback/useCallbackExample"
 import UseCustomHookExample from "./hooks/09-usecustomhook/UseCustomHookExample"
 import UseExample from "./hooks/10-use/useExample"
 import UseFormstatusExample from "./hooks/11-useformstatus/UseFormstatusExample"
-import UseActionstateExample from "./hooks/12.useactionstate/UseActionstateExample"
+import UseActionstateExample from "./hooks/12-useactionstate/UseActionstateExample"
+import UseOptimisticExample from "./hooks/13-useoptimistic/UseOptimisticExample"
 // import GreetingClass from './core-concepts/02-components/GreetingClass';
 function App() {
 
@@ -47,7 +48,8 @@ function App() {
   // return <UseCustomHookExample/>
   // return <UseExample/>
   // return <UseFormstatusExample/>
-  return <UseActionstateExample/>
+  // return <UseActionstateExample/>
+  return <UseOptimisticExample/>
 }
 
 export default App
