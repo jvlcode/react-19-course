@@ -1,3 +1,8 @@
+import { CartProvider } from "./advanced-concepts/01-context-api-state-patterns/CartContext"
+import CartExample from "./advanced-concepts/01-context-api-state-patterns/CartExample"
+import MyAppExample from "./advanced-concepts/01-context-api-state-patterns/MyAppExample"
+import { ThemeProvider } from "./advanced-concepts/01-context-api-state-patterns/ThemeContext"
+import ThemeContextExample from "./advanced-concepts/01-context-api-state-patterns/ThemeContextExample"
 import HelloWorld from "./core-concepts/01-helloworld/HelloWorld"
 import Greeting from "./core-concepts/02-components/Greeting"
 import JSXExample from "./core-concepts/03-jsx/JSXExample"
@@ -38,7 +43,10 @@ function App() {
   // return <UseLayoutEffectExample/>
   // return <UseContextExample/>
   // return <UseRefExample/>
-  return <UseMemoExample/>
+  // return <UseMemoExample/>
+  // return <ThemeProvider><ThemeContextExample/></ThemeProvider> 
+  // return <CartProvider><CartExample/></CartProvider> 
+  return <MyAppExample/>
 }
 
 export default App
